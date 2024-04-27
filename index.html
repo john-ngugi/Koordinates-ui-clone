@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KoordinatesClone</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4e0f4710c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/solid.css">
+</head>
+
+<body>
+    <nav class="nav">
+
+        <div class="logo"> Koordinates</div>
+
+        <div class="navlinks">
+            <div id="about">
+                <div class="aboutlinks">
+                    <a id="about-drops" href="#">
+                        About <span id="dropdown-up"><i class="fa-solid fa-angle-down"></i></span>
+                    </a>
+                    <ul>
+                        <li><a href="#">products</a></li>
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">Downloads</a></li>
+                    </ul>
+                </div>
+            </div>
+            <ul>
+                <li>
+                    <div id="help"><a href="#"><i class="fa-solid fa-question"></i></a></div>
+                </li>
+                <li id="second-child-navlinks"><a href="#">Login</a></li>
+            </ul>
+        </div>
+    </nav>
+    <form action="" method="get">
+        <input type="search" name="search-dataset" class="fAwsome" id="is-search-dataset"
+            placeholder="&#xF002; search and browse thousands of geospatial datasets">
+    </form>
+
+    <div class="data-navigation">
+        <div class="filter-btns-div">
+            <ul class="filter-btns-btn">
+                <button class=" filter-btn active" type="button"><i class="fa-solid fa-globe"
+                        style="color: #05b327;"></i> browse </button>
+                <button class=" filter-btn" type="button"> <i class="fa-solid fa-chart-line"
+                        style="color: #05b327;"></i> Populer </button>
+                <button class=" filter-btn" type="button"><i class="fa-solid fa-paper-plane"
+                        style="color: #05b327;"></i> Publishers </button>
+                <button class=" filter-btn" type="button"><i class="fa-regular fa-calendar" style="color: #05b327;"></i>
+                    recent </button>
+
+            </ul>
+            <ul class="sortby">
+                <button type="button" class="btn-sort-type">Region <span><i class="fa-solid fa-angle-down"></i></span></button>
+                <button type="button" class="btn-sort-type">Data Type <i class="fa-solid fa-angle-down"></i></button>
+                <button type="button" class="btn-sort-type"> Publisher <i class="fa-solid fa-angle-down"></i></button>
+                <button type="button" class="btn-sort-type">Date <i class="fa-solid fa-angle-down"></i></button>
+               
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="dataset-body">
+        <div class="info-section">
+            <p id="page-no">Showing 1-20 of 21,789</p>
+            <p id="popular-in">Popular in KE <i class="fa-solid fa-angle-down"></i></p>
+        </div>
+
+        <div class="cards-section" id="scrollable-container">
+            <div class="scrollable-container">
+            <div class="card">
+                <div class="thumbnail">
+                <img src="#" alt="" srcset="" class="data-thumbnail">
+            </div>
+            <div class="data-info">
+                <div class="info-wrapper">
+                <p class="card-title">NZ Property Titles</p>
+                <p class="card-subtitle">Land Information New Zealand</p>
+                <p class="owner">CC-BY</p>
+                <p class="owner"> <i class="fa-solid fa-clock-rotate-left"></i> 20 Apr 2024</p>
+                <p class="owner"><i class="fa-regular fa-eye"></i> 532K</p>
+                <p class="owner"><i class="fa-solid fa-arrow-down"></i> 190K</p>
+            </div>
+            </div>
+            </div>
+            <div class="card">
+                <div class="thumbnail">
+                <img src="#" alt="" srcset="" class="data-thumbnail">
+            </div>
+            <div class="data-info">
+                <div class="info-wrapper">
+                <p class="card-title">NZ Property Titles</p>
+                <p class="card-subtitle">Land Information New Zealand</p>
+                <p class="owner">CC-BY</p>
+                <p class="owner"> <i class="fa-solid fa-clock-rotate-left"></i> 20 Apr 2024</p>
+                <p class="owner"><i class="fa-regular fa-eye"></i> 532K</p>
+                <p class="owner"><i class="fa-solid fa-arrow-down"></i> 190K</p>
+            </div>
+            </div>
+            </div>
+            <div class="card">
+                <div class="thumbnail">
+                <img src="#" alt="" srcset="" class="data-thumbnail">
+            </div>
+            <div class="data-info">
+                <div class="info-wrapper">
+                <p class="card-title">NZ Property Titles</p>
+                <p class="card-subtitle">Land Information New Zealand</p>
+                <p class="owner">CC-BY</p>
+                <p class="owner"> <i class="fa-solid fa-clock-rotate-left"></i> 20 Apr 2024</p>
+                <p class="owner"><i class="fa-regular fa-eye"></i> 532K</p>
+                <p class="owner"><i class="fa-solid fa-arrow-down"></i> 190K</p>
+            </div>
+            </div>
+            </div>
+            <div class="card">
+                <div class="thumbnail">
+                <img src="#" alt="" srcset="" class="data-thumbnail">
+            </div>
+            <div class="data-info">
+                <div class="info-wrapper">
+                <p class="card-title">NZ Property Titles</p>
+                <p class="card-subtitle">Land Information New Zealand</p>
+                <p class="owner">CC-BY</p>
+                <p class="owner"> <i class="fa-solid fa-clock-rotate-left"></i> 20 Apr 2024</p>
+                <p class="owner"><i class="fa-regular fa-eye"></i> 532K</p>
+                <p class="owner"><i class="fa-solid fa-arrow-down"></i> 190K</p>
+            </div>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="data-map-nav">
+       <button type="button"> <i class="fa-solid fa-magnifying-glass"></i> Data </button> 
+       <a href="map.html"><button type="button" id="map-page-linker"><i class="fa-solid fa-map"></i> Map Viewer </button></a>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
